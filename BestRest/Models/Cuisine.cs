@@ -27,6 +27,5 @@ namespace BestRest
         {
           return _type;
         }
-
     }
 }
