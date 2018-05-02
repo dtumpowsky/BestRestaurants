@@ -1,0 +1,13 @@
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/BestRest.Test.deps.json
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/BestRest.Test.runtimeconfig.json
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/BestRest.Test.runtimeconfig.dev.json
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/obj/Debug/netcoreapp1.1/BestRest.Test.AssemblyInfo.cs
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/BestRest.Test.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/BestRest.Test.pdb
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/BestRest.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/bin/Debug/netcoreapp1.1/BestRest.pdb
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/obj/Debug/netcoreapp1.1/BestRest.Test.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest.Tests/obj/Debug/netcoreapp1.1/BestRest.Test.pdb

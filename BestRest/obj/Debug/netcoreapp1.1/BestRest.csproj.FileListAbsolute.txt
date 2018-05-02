@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/BestRest.Solution/BestRest/bin/Debug/netcoreapp1.1/BestRest.deps.json
+/Users/Guest/Desktop/BestRest.Solution/BestRest/bin/Debug/netcoreapp1.1/BestRest.runtimeconfig.json
+/Users/Guest/Desktop/BestRest.Solution/BestRest/bin/Debug/netcoreapp1.1/BestRest.runtimeconfig.dev.json
+/Users/Guest/Desktop/BestRest.Solution/BestRest/bin/Debug/netcoreapp1.1/BestRest.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest/bin/Debug/netcoreapp1.1/BestRest.pdb
+/Users/Guest/Desktop/BestRest.Solution/BestRest/obj/Debug/netcoreapp1.1/BestRest.AssemblyInfo.cs
+/Users/Guest/Desktop/BestRest.Solution/BestRest/obj/Debug/netcoreapp1.1/BestRest.dll
+/Users/Guest/Desktop/BestRest.Solution/BestRest/obj/Debug/netcoreapp1.1/BestRest.pdb
