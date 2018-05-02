@@ -6,39 +6,53 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BestRest.Models
 {
-    public class Restaurants
+    public class Restaurant
     {
-        private string _littleWorld;
-        private string _dinTaiFung;
-        private string _senorMoose;
-        private string _albertos;
-        private string _spiceKing;
-        private string _tasteOfIndia;
-        private string _singTongThai;
-        private string _thai65;
-        private string _sunnyTeryaki;
-        private string _hamanasu;
-        private string _madGreek;
-        private string _gyroStop;
+        private string _name;
         private int _cuisineId;
         private int _id;
 
-        public Restaurants(string littleWorld, string dinTaiFung, string senorMoose, string albertos, string spiceKing, string tasteOfIndia, string singTongThai, string thai65, string sunnyTeryaki, string hamanasu, string madGreek, string gyroStop, int cuisineId,int id=0)
+        public Restaurant(string name, int cuisineId, int id=0)
         {
-            _littleWorld = littleWorld;
-            _dinTaiFung = dinTaiFung;
-            _senorMoose = senorMoose;
-            _albertos = albertos;
-            _spiceKing = spiceKing;
-            _tasteOfIndia = tasteOfIndia;
-            _singTongThai = singTongThai;
-            _thai65 = thai65;
-            _sunnyTeryaki = sunnyTeryaki;
-            _hamanasu = hamanasu;
-            _madGreek = madGreek;
-            _gyroStop = gyroStop;
+            _name = name;
             _cuisineId = cuisineId;
             _id = id;
+        }
+
+        public string GetName()
+        {
+            return _name;
+        }
+        public void SetName(string Name)
+        {
+            _name = Name;
+        }
+
+        public int GetRestaurantId()
+        {
+            return _id;
+        }
+
+        public int GetCuisineId()
+        {
+            return _cuisineId;
+        }
+
+
+        public override bool Equals(System.Object otherItem)
+        {
+          if (!(otherItem is Restaurant))
+          {
+            return false;
+          }
+          else
+          {
+             Restaurant newRestaurant = (Restaurant) otherItem;
+             bool idEquality = this.GetRestaurantId() == newRestaurant.GetRestaurantId();
+             bool nameEquality = this.GetName() == newRestaurant.GetName();
+             bool cuisineEquality = this.GetCuisineId() == newRestaurant.GetCuisineId();
+             return (idEquality && nameEquality && cuisineEquality);
+           }
         }
     }
 }

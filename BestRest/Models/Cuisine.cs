@@ -8,23 +8,25 @@ namespace BestRest
 {
     public class Cuisine
     {
-      private string _chinese;
-      private string _mexican;
-      private string _american;
-      private string _indian;
-      private string _thai;
-      private string _japanese;
-      private string _greek;
+        private int _id;
+        private string _type;
 
-      public Cuisine(string chinese, string mexican, string american, string indian, string thai, string japanese, string greek)
-      {
-          _chinese = greek;
-          _mexican = mexican;
-          _american = american;
-          _indian = indian;
-          _thai = thai;
-          _japanese = japanese;
-          _greek = greek;
-      }
+        public Cuisine(int Id = 0, string Type)
+        {
+            _id = Id;
+            _type = Type;
+
+        }
+
+        public int GetId()
+        {
+          return _id;
+        }
+
+        public string GetType()
+        {
+          return _type;
+        }
+
     }
 }
