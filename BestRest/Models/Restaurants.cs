@@ -95,7 +95,7 @@ namespace BestRest.Models
             {
               int restaurantId = rdr.GetInt32(0);
               string restaurantName = rdr.GetString(1);
-              int CuisineId = rdr.GetInt32(2);
+              int cuisineId = rdr.GetInt32(2);
               Restaurant newRestaurant = new Restaurant(restaurantName, cuisineId, restaurantId);
               allRestaurants.Add(newRestaurant);
             }
@@ -130,7 +130,7 @@ namespace BestRest.Models
               restaurantName = rdr.GetString(1);
               restaurantCuisineId = rdr.GetInt32(2);
             }
-            Restaurant newRestaurant = new Restaurant(restaurantId, restaurantCuisineId, restaurantId);
+            Restaurant newRestaurant = new Restaurant(restaurantName, restaurantCuisineId, restaurantId);
             conn.Close();
             if (conn != null)
             {

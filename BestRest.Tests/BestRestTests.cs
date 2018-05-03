@@ -1,19 +1,27 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BestRest;
+using BestRest.Models;
+using System;
 
 namespace BestRest.Tests
 {
-  // [TestClass]
-  // public class BestRestTest
-  // {
-  //   [TestMethod]
-  //   public void SortTwoElements_True()
-  //   {
-  //     int[] expectedArray = new int[] {1,7};
-  //     int[] UnsortedArray = new int[] {7,1};
-  //     BestRest testBestRest = new BestRest();
-  //     CollectionAssert.AreEqual(expectedArray, testBestRest.SortArray(UnsortedArray));
-  //   }
-  //
-  // }
+    [TestClass]
+    public class RestaurantTests : IDisposable
+    {
+        public void Dispose()
+        {
+            Restaurant.DeleteAll();
+        }
+        public RestaurantTests()
+        {
+            DBConfiguration.ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=best_restaurants_test;";
+        }
+
+        [TestMethod]
+        public void Restaurant_isEmpty()
+        {
+            int result = Restaurant.GetAll().Count;
+
+            Assert.AreEqual(0, result);
+        }
+    }
 }
