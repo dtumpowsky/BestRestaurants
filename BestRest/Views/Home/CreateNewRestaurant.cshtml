@@ -1,0 +1,15 @@
+<h1>Restaurants</h1>
+
+<form action="submit">
+  <select name="restaurant-cuisine">
+    @foreach (var cuisine in Model)
+    {
+      <option name="@cuisine.GetId()">@cuisine.GetCuisineType()</option>
+    }
+  </select>
+
+  <label for="restaurant-name">Name:</label>
+  <input type="text" name="restaurant-name">
+
+  <button type='submit' class='btn btn-primary'>Create</button>
+</form>

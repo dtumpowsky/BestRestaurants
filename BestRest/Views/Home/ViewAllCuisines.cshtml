@@ -1,0 +1,8 @@
+<h1>Cuisines</h1>
+
+<ul>
+  @foreach (var cuisine in Model)
+  {
+    <li>@cuisine.GetCuisineType()</li>
+  }
+</ul>
