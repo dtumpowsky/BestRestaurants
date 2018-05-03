@@ -8,14 +8,13 @@ namespace BestRest.Models
 {
     public class Cuisine
     {
-        private string _type;
+        private string _cuisineType;
         private int _id;
 
-        public Cuisine(string Type, int Id = 0)
+        public Cuisine(string CuisineType, int Id = 0)
         {
-            _type = Type;
+            _cuisineType = CuisineType;
             _id = Id;
-
         }
 
         public int GetId()
@@ -23,9 +22,9 @@ namespace BestRest.Models
           return _id;
         }
 
-        public string GetType()
+        public string GetCuisineType()
         {
-          return _type;
+          return _cuisineType;
         }
 
         public static List<Cuisine> GetAll()
